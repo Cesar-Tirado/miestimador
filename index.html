@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="calculadoras de salud, bienestar, nutrición, ejercicio, dieta, alimentación saludable, fitness">
+    <meta name="description"
+        content="Utiliza nuestras calculadoras en línea para mantener un estilo de vida saludable. Gestiona tu dieta, ejercicio, y planifica tus gastos familiares con MiEstimador.com.">
+    <meta name='copyright' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>MiEstimador - Calculadoras de Salud y Bienestar</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- icofont CSS -->
+    <link rel="stylesheet" href="css/icofont.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <!-- Medipro CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-outter"></div>
+            <div class="loader-inner"></div>
+            <div class="indicator">
+                <svg width="16px" height="12px">
+                    <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Header Area -->
+    <header class="header fixed-top">
+        <!-- Header Inner -->
+        <div class="header-inner">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-12">
+                            <!-- Start Logo -->
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.svg" alt="MiEstimador Logo"></a>
+                            </div>
+                            <!-- End Logo -->
+                            <!-- Mobile Nav -->
+                            <div class="mobile-nav"></div>
+                            <!-- End Mobile Nav -->
+                        </div>
+                        <div class="col-lg-7 col-md-9 col-12">
+                            <!-- Main Menu -->
+                            <div class="main-menu">
+                                <nav class="navigation">
+                                    <ul class="nav menu">
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="#">Calculadoras <i class="icofont-rounded-down"></i></a>
+                                            <ul class="dropdown">
+                                                <li><a href="NutricionDieta.html">Nutrición y Dieta</a></li>
+                                                <li><a href="FitnesEjercicio.html">Fitness y Ejercicio</a></li>
+                                                <li><a href="AlimentacionNutricion.html">Alimentación y Nutrición</a>
+                                                </li>
+                                                <li><a href="SaludBienestar.html">Salud y Bienestar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Blog <i class="icofont-rounded-down"></i></a>
+                                            <ul class="dropdown">
+                                                <li><a href="blog-hidratacion.html">Hidratación Adecuada</a></li>
+                                                <li><a href="blog-nutricion.html">Nutrición Balanceada</a></li>
+                                                <li><a href="blog-sueno.html">Sueño Reparador</a></li>
+                                                <li><a href="blog-peso.html">Peso Saludable</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- Add Button in the Mobile Menu -->
+                                        <li class="d-block d-lg-none mobile-action-btn">
+                                            <a href="https://go.hotmart.com/U94607783D"
+                                                class="mobile-action-link">Transforma Tu Alimentación</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--/ End Main Menu -->
+                        </div>
+                        <div class="col-lg-2 col-12 d-none d-lg-block">
+                            <div class="get-quote animated-btn">
+                                <a href="https://go.hotmart.com/U94607783D"
+                                    class="btn btn-primary animated-link">Transforma Tu Alimentación</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Header Inner -->
+    </header>
+    <!-- End Header Area -->
+
+    <br>
+    <!-- Start Features -->
+    <section class="features section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h1>Bienvenido a MiEstimador - Calculadoras de Salud y Bienestar</h1>
+                    <img src="img/section-img.png" alt="Calculadoras de Salud y Bienestar">
+                    <p>Utiliza nuestras calculadoras en línea para ayudarte a mantener un estilo de vida saludable, gestionar tu dieta y ejercicio, y mejorar tu bienestar general.</p>
+                </div>
+            </div>
+        </div>        
+        </div>
+        <div class="col-lg-9 col-12 mx-auto">
+            <div class="calculator-description">
+                <div class="row mx-auto">
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title text-center">Salud y Bienestar</h3>
+                                <ul>
+                                    <li><strong>Cantidad de Agua Diaria:</strong> Calcula la ingesta de agua según tu
+                                        peso.</li>
+                                    <li><strong>Calorías Diarias Necesarias:</strong> Determina tus necesidades
+                                        calóricas diarias.</li>
+                                    <li><strong>Horas de Sueño Necesarias:</strong> Estima las horas de sueño según tu
+                                        edad.</li>
+                                    <li><strong>Índice de Masa Corporal (IMC):</strong> Calcula tu IMC para evaluar tu
+                                        peso saludable.</li>
+                                    <li><strong>Frecuencia Cardíaca Máxima:</strong> Determina tu frecuencia cardíaca
+                                        máxima durante el ejercicio.</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary mt-auto"
+                                    onclick="location.href='SaludBienestar.html'"><span class="btn-text">Ver
+                                        Calculadoras</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title text-center">Nutrición y Dieta</h3>
+                                <ul>
+                                    <li><strong>Consumo Diario de Proteínas:</strong> Calcula tu ingesta diaria de
+                                        proteínas
+                                    </li>
+                                    <li><strong>Consumo de Fibra Diario:</strong> Determina tu ingesta diaria de fibra.
+                                    </li>
+                                    <li><strong>Consumo de Grasa Diario:</strong> Estima la cantidad de grasa que debes
+                                        consumir.</li>
+                                    <li><strong>Cantidad de Frutas y Verduras Diarias:</strong> Calcula las porciones
+                                        diarias recomendadas.</li>
+                                    <li><strong>Calorías Quemadas por Ejercicio:</strong> Calcula las calorías quemadas
+                                        en tu ejercicio.</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary mt-auto"
+                                    onclick="location.href='NutricionDieta.html'"><span class="btn-text">Ver
+                                        Calculadoras</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title text-center">Fitness y Ejercicio</h3>
+                                <ul>
+                                    <li><strong>Calculadora de Peso Ideal:</strong> Determina tu peso ideal basado en tu
+                                        IMC.</li>
+                                    <li><strong>Calculadora de Ritmo de Carrera:</strong> Calcula tu ritmo de carrera
+                                        promedio.</li>
+                                    <li><strong>Calculadora de Repeticiones Máximas:</strong> Estima tus repeticiones
+                                        máximas.</li>
+                                    <li><strong>Calculadora de Meta de Entrenamiento:</strong> Planifica tus metas de
+                                        entrenamiento.</li>
+                                    <li><strong>Calculadora de Pasos Diarios Necesarios:</strong> Calcula los pasos
+                                        diarios recomendados.</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary mt-auto"
+                                    onclick="location.href='FitnessEjercicio.html'"><span class="btn-text">Ver
+                                        Calculadoras</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title text-center">Alimentación y Nutrición</h3>
+                                <ul>
+                                    <li><strong>Calculadora de Necesidades Calóricas Diarias:</strong> Calcula tus
+                                        necesidades calóricas diarias.</li>
+                                    <li><strong>Calculadora de Consumo de Macros:</strong> Calcula tu ingesta de
+                                        macronutrientes.</li>
+                                    <li><strong>Calculadora de Consumo de Agua:</strong> Calcula la cantidad de agua que
+                                        necesitas.</li>
+                                    <li><strong>Calculadora de Pérdida de Peso:</strong> Estima tu pérdida de peso
+                                        basada en la ingesta y el ejercicio.</li>
+                                    <li><strong>Calculadora de Ganancia de Peso:</strong> Calcula la ganancia de peso
+                                        esperada.</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary mt-auto"
+                                    onclick="location.href='AlimentacionNutricion.html'"><span class="btn-text">Ver
+                                        Calculadoras</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Features -->
+
+    <!-- Start Fun-facts -->
+    <div id="fun-facts" class="fun-facts section overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Fun-fact -->
+                    <div class="single-fun">
+                        <i class="icofont icofont-heart"></i>
+                        <div class="content">
+                            <span class="counter">1500+</span>
+                            <p>Usuarios Satisfechos</p>
+                        </div>
+                    </div>
+                    <!--/ End Single Fun-fact -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Fun-fact -->
+                    <div class="single-fun">
+                        <i class="icofont icofont-calculator"></i>
+                        <div class="content">
+                            <span class="counter">20+</span>
+                            <p>Calculadoras Disponibles</p>
+                        </div>
+                    </div>
+                    <!--/ End Single Fun-fact -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Fun-fact -->
+                    <div class="single-fun">
+                        <i class="icofont icofont-book"></i>
+                        <div class="content">
+                            <span class="counter">100+</span>
+                            <p>Artículos Informativos</p>
+                        </div>
+                    </div>
+                    <!--/ End Single Fun-fact -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Fun-fact -->
+                    <div class="single-fun">
+                        <i class="icofont icofont-medical-sign-alt"></i>
+                        <div class="content">
+                            <span class="counter">10+</span>
+                            <p>Años de Experiencia</p>
+                        </div>
+                    </div>
+                    <!--/ End Single Fun-fact -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ End Fun-facts -->
+
+    <!-- Start Portfolio -->
+    <section class="portfolio section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Explora Temas Clave para tu Salud y Bienestar</h2>
+                        <img src="img/section-img.png" alt="Health and Wellness Insights">
+                        <p>Descubre información esencial y consejos prácticos para mejorar tu salud, nutrición y
+                            bienestar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="owl-carousel portfolio-slider">
+                        <div class="single-pf">
+                            <img src="img/pf1.jpg" alt="Hidratación Adecuada">
+                            <h3 class="pf-title">Hidratación Adecuada</h3>
+                            <p class="pf-description">La importancia de mantenerte hidratado para un bienestar óptimo y
+                                cómo lograrlo.</p>
+                            <a href="blog-hidratacion.html" class="btn">Leer Más</a>
+                        </div>
+                        <div class="single-pf">
+                            <img src="img/pf2.jpg" alt="Nutrición Balanceada">
+                            <h3 class="pf-title">Nutrición Balanceada</h3>
+                            <p class="pf-description">Claves para una dieta equilibrada y saludable que apoye tu
+                                bienestar general.</p>
+                            <a href="blog-nutricion.html" class="btn">Leer Más</a>
+                        </div>
+                        <div class="single-pf">
+                            <img src="img/pf3.jpg" alt="Sueño Reparador">
+                            <h3 class="pf-title">Sueño Reparador</h3>
+                            <p class="pf-description">Consejos para mejorar la calidad de tu sueño y descansar
+                                plenamente.</p>
+                            <a href="blog-sueno.html" class="btn">Leer Más</a>
+                        </div>
+                        <div class="single-pf">
+                            <img src="img/pf4.jpg" alt="Índice de Masa Corporal">
+                            <h3 class="pf-title">Mantén un Peso Saludable</h3>
+                            <p class="pf-description">Todo lo que necesitas saber sobre el IMC y cómo mantener un peso
+                                saludable.</p>
+                            <a href="blog-peso.html" class="btn">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Portfolio -->
+
+    <!-- Start Blog Area -->
+<section class="blog section calculadoras" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Mantente al Día con Nuestras Noticias Más Recientes</h2>
+                    <img src="img/section-img.png" alt="Medical News">
+                    <p>Lee nuestras últimas noticias y actualizaciones médicas para mantenerte informado.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- Noticia 1 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news1.jpg" alt="Noticia 1" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">20 Jul, 2023</div>
+                            <h2><a href="https://fundaciondelcorazon.com/prensa/notas-de-prensa/1794-importancia-hidratacion.html"
+                                    target="_blank">La Importancia de la Hidratación
+                                    en Verano</a></h2>
+                            <p class="text">Con la llegada del verano, expertos en salud recuerdan la importancia de
+                                mantenerse hidratado para evitar golpes de calor y otros problemas de salud.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Noticia 2 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news2.jpg" alt="Noticia 2" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">15 Jul, 2023</div>
+                            <h2><a href="https://www.mayoclinic.org/es/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752"
+                                    target="_blank">Cinco Maneras Efectivas de Perder Peso Saludablemente</a></h2>
+                            <p class="text">Descubre consejos prácticos y efectivos para perder peso de manera
+                                saludable y mantener un estilo de vida equilibrado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Noticia 3 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news3.jpg" alt="Noticia 3" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">05 Jul, 2023</div>
+                            <h2><a href="https://www.20minutos.es/salud/ejercicios/los-cinco-mejores-ejercicios-que-puedes-hacer-para-mejorar-tu-salud-perder-peso-segun-universidad-harvard-5351605/"
+                                    target="_blank">Los Mejores Ejercicios para Mejorar Tu Salud</a></h2>
+                            <p class="text">Un estudio reciente ha revelado los mejores ejercicios que puedes hacer
+                                para mejorar tu salud y bienestar general.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Noticia 4 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news4.jpg" alt="Noticia 4" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">30 Jun, 2023</div>
+                            <h2><a href="https://www.cigna.com/es-us/knowledge-center/hw/alimentacin-saludable-para-el-corazn-av2065#:~:text=Los%20pescados%20grasos%2C%20que%20contienen,aceite%20de%20canola%20(colza)."
+                                    target="_blank">Los Mejores Alimentos para la Salud del Corazón</a></h2>
+                            <p class="text">Aprende sobre los alimentos que pueden mejorar la salud de tu corazón y
+                                cómo incorporarlos en tu dieta diaria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Noticia 5 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news5.jpg" alt="Noticia 5" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">25 Jun, 2023</div>
+                            <h2><a href="https://www.cigna.com/es-us/knowledge-center/hw/dieta-mediterrnea-aa98646"
+                                    target="_blank">Beneficios de la Dieta Mediterránea</a></h2>
+                            <p class="text">La dieta mediterránea no solo es deliciosa, sino que también ofrece
+                                numerosos beneficios para la salud, incluyendo la reducción del riesgo de
+                                enfermedades crónicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Noticia 6 -->
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="single-news">
+                    <div class="news-head">
+                        <img src="img/news6.jpg" alt="Noticia 6" class="img-fluid">
+                    </div>
+                    <div class="news-body">
+                        <div class="news-content">
+                            <div class="date">20 Jun, 2023</div>
+                            <h2><a href="https://truecare.org/es/blog/el-ejercicio-ayuda-a-la-salud-mental/#:~:text=Es%20una%20buena%20distracci%C3%B3n%20del,mayor%20resiliencia%20mental%20y%20f%C3%ADsica."
+                                    target="_blank">Cómo el Ejercicio Mejora la Salud Mental</a></h2>
+                            <p class="text">Descubre cómo el ejercicio regular puede tener un impacto positivo en tu
+                                salud mental, reduciendo el estrés y mejorando el estado de ánimo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Blog Area -->
+
+
+    <!-- Start Partnership Area -->
+    <section class="newsletter section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <!-- Start Partnership Text -->
+                    <div class="subscribe-text">
+                        <h6>¿Interesado en una colaboración?</h6>
+                        <p>Si eres una marca que busca oportunidades para promocionar tus productos o servicios, nos
+                            encantaría colaborar contigo. Potencia tu marca con MiEstimador.com y llega a un público
+                            comprometido con la salud y el bienestar. Ingresa tu correo y nos pondremos en contacto
+                            contigo.</p>
+                    </div>
+                    <!-- End Partnership Text -->
+                </div>
+                <div class="col-lg-6 col-12">
+                    <!-- Start Partnership Form -->
+                    <div class="subscribe-form">
+                        <form id="partnership-form" action="https://formspree.io/f/xqazqaez" method="POST">
+                            <input name="EMAIL" placeholder="Tu dirección de correo" class="common-input"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tu dirección de correo'"
+                                required="" type="email">
+                            <button class="btn" type="submit">Contactar</button>
+                        </form>
+                    </div>
+                    <!-- End Partnership Form -->
+                </div>
+            </div>
+            <div id="form-message" style="display: none; text-align: center; margin-top: 20px;"></div>
+
+        </div>
+    </section>
+    <!-- /End Partnership Area -->
+
+    <!-- Footer Area -->
+    <footer id="footer" class="footer">
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Sobre Nosotros</h2>
+                            <p>En MiEstimador.com, nos dedicamos a proporcionarte las mejores herramientas y recursos
+                                para mejorar tu salud, bienestar y planificación familiar. Utiliza nuestras calculadoras
+                                para obtener estimaciones precisas y consejos prácticos que te ayudarán a llevar un
+                                estilo de vida equilibrado y saludable.</p>
+                            <!-- Social -->
+                            <ul class="social">
+                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            </ul>
+                            <!-- End Social -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Boletín Informativo</h2>
+                            <p>Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones directamente en tu correo.</p>
+                            <form id="newsletter-form" action="https://formspree.io/f/xqazqaez" method="POST">
+                                <input name="EMAIL" placeholder="Dirección de correo" class="common-input"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de correo'"
+                                    required="" type="email">
+                                    <button class="btn" type="submit">Enviar</button>
+                                                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="copyright-content">
+                            <p>© Copyright 2023 | Todos los derechos reservados por <a
+                                    href="https://www.wpthemesgrid.com" target="_blank">wpthemesgrid.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- jquery Min JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery Migrate JS -->
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <!-- jquery Ui JS -->
+    <script src="js/jquery-ui.min
+        .js"></script>
+    <!-- Easing JS -->
+    <script src="js/easing.js"></script>
+    <!-- Color JS -->
+    <script src="js/colors.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Datepicker JS -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- Jquery Nav JS -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/slicknav.min.js"></script>
+    <!-- ScrollUp JS -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Niceselect JS -->
+    <script src="js/niceselect.js"></script>
+    <!-- Tilt Jquery JS -->
+    <script src="js/tilt.jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- counterup JS -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Steller JS -->
+    <script src="js/steller.js"></script>
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up CDN JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+      <!-- Mail JS -->
+      <script src="js/mail.js"></script>
+
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
